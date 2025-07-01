@@ -1,0 +1,407 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Cabeçalho */
+.cabecalho {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding-bottom: 0.8rem;
+  background-color: #6396db;
+}
+
+/*Cabeçalho - Perfil */
+.perfil {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  color: #000000;
+}
+
+.perfil h1 {
+  margin-top: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.perfil p {
+  text-align: center;
+  padding: 10px;
+  font-size: 1.2rem;
+}
+
+.perfil img {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+  border: 2px solid #461cdb;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.75);
+}
+
+/* Cabeçalho - Menu Navegação */
+.menu {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu ul {
+  display: flex;
+  gap: 1rem;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #FFFFFF;
+}
+
+.menu ul li a:hover {
+  color: #461cdb;
+}
+
+/* Seção Principal (Main) */
+.principal {
+  background-color: #a5bbd9;
+}
+
+.principal h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* Sobre Mim */
+.sobre-mim {
+  padding: 2rem;
+}
+
+.sobre-mim p {
+  line-height: 1.5;
+  font-size: 1.2rem;
+  color: #000000;
+}
+
+/* Seção Habilidades */
+.habilidades ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.habilidades ul li {
+  font-size: 2rem;
+  border: 1px solid rgba(0, 0, 0, 0.555);
+  border-radius: 1rem;
+  box-shadow: 4px 4px 4px black;
+  padding: 0.75rem;
+  color: #ffffff;
+}
+
+.habilidades ul li:hover {
+  transform: scale(1.08);
+  transition: transform 0.3s ease;
+}
+
+#html {
+  background: linear-gradient(#ee4323, #fdbc1f);
+}
+
+#css {
+  background: linear-gradient(#005a9c, #00a1d6);
+}
+
+#tailwind {
+  background: linear-gradient(#06b6d4, #22d3ee);
+}
+
+#javascript {
+  background: linear-gradient(#f0da50, #f7e68a);
+}
+
+#react {
+  background: linear-gradient(#61dafb, #99e9f2);
+}
+
+#bootstrap {
+  background: linear-gradient(#0d6efd, #4d9bff);
+}
+
+/* Seção Projetos */
+.container-cards {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding-bottom: 1.5rem;
+}
+
+.cards {
+  width: 20rem;
+  height: 35rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top center;
+  padding: 1rem;
+}
+
+.cards:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+.card-conteudo {
+  min-height: 14rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.cards h3 {
+  margin: 0;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.cards p {
+  margin: 0 1rem;
+  text-align: center;
+}
+
+.card-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.card-btn a {
+  text-decoration: none;
+  background-color: #000000;
+  color: #FFFFFF;
+  font-size: 1.2rem;
+  border: 1px solid rgba(0, 0, 0, 0.555);
+  border-radius: 1rem;
+  box-shadow: 4px 4px 4px black;
+  padding: 0.5rem;
+  cursor: pointer;
+  margin: 10px 10px;
+}
+
+.card-btn-projeto {
+  background-color: #29b11d !important;
+}
+
+.card-1 {
+  background-image: url(imagens/CalculadoraJS.JPG);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.card-2 {
+  background-image: url(imagens/mochila-de-viagem.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.card-3 {
+  background-image: url(imagens/banda.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.card-4 {
+  background-image: url(imagens/AluraBooks.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.card-5 {
+  background-image: url(imagens/listaDeCompras.JPG);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.card-6 {
+  background-image: url(imagens/news-letter.JPG);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.card-7 {
+  background-image: url(imagens/meteora.JPG);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.card-8 {
+  background-image: url(imagens/cine-tag.JPG);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* Informações Extras (Aside) */
+.informacoes-extras {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.informacoes-extras p {
+  line-height: 1.5;
+  font-size: 1.2rem;
+  color: #000000;
+}
+
+.informacoes-extras h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.contato h3,
+.interesses h3 {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.contato ul,
+.interesses ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+.github,
+.linkedin {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  color: #000000;
+}
+
+/* Rodapé */
+.rodape {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  padding-bottom: 0.5rem;
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+  /* Navegação */
+  .menu ul {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Informações Extras */
+  .interesses ul {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 500px) {
+  /* Rodapé */
+  .rodape p {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 425px) {
+  /* Cabeçalho - Perfil */
+  .perfil h1 {
+    font-size: 1.5rem;
+  }
+
+  .perfil img {
+    width: 15rem;
+    height: 15rem;
+  }
+
+  .perfil p {
+    font-size: 1rem;
+  }
+
+  /* Menu Navegação */
+  .menu ul li a {
+    font-size: 1rem;
+  }
+
+  /* Principal */
+  .principal h2 {
+    font-size: 1.5rem;
+  }
+
+  /* Sobre Mim */
+  .sobre-mim p {
+    font-size: 1rem;
+  }
+
+  /* Habilidades */
+  .habilidades ul li {
+    font-size: 1rem;
+  }
+
+  /* Projetos */
+  .cards {
+    width: 15rem;
+    height: 30rem;
+  }
+
+  /* Informações Extras */
+  .informacoes-extras h2 {
+    font-size: 1.5rem;
+  }
+  .informacoes-extras p {
+    font-size: 1rem;
+  }
+
+  .interesses h3,
+  .contato h3 {
+    font-size: 1.2rem;
+  }
+
+  .interesses ul {
+    font-size: 1rem;
+  }
+
+  .logos {
+    width: 40px;
+    height: 40px;
+  }
+}
