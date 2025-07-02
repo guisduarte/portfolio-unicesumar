@@ -1,5 +1,6 @@
 body {
   font-family: 'Roboto', sans-serif;
+  background-image: linear-gradient(to bottom, #a5bbd9, #e6ecf5);
 }
 
 /* Cabeçalho */
@@ -67,10 +68,6 @@ body {
 }
 
 /* Seção Principal (Main) */
-.principal {
-  background-color: #a5bbd9;
-}
-
 .principal h2 {
   text-align: center;
   margin-bottom: 2rem;
